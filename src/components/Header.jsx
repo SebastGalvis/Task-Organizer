@@ -1,0 +1,11 @@
+function Header() {
+  return (
+    <header className="bg-slate-800 px-6 py-4 shadow-md">
+      <h1 className="text-xl font-bold text-white">
+        Task Organizer
+      </h1>
+    </header>
+  );
+}
+
+export default Header;
