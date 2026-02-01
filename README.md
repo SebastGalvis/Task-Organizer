@@ -1,16 +1,74 @@
-# React + Vite
+# 📝 Task Organizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un organizador de tareas inspirado en Notion, desarrollado con React.  
+Este proyecto permite crear, visualizar y gestionar tareas de forma sencilla y rápida.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🧠 JavaScript (ES6+)
+- 🌐 HTML5 y CSS3
+- 🧰 Git & GitHub
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ Crear tareas
+- 📋 Visualizar lista de tareas
+- 🗑️ Eliminar tareas (próximamente)
+- ✏️ Editar tareas (próximamente)
+- 💾 Persistencia de datos (próximamente)
 
-## Expanding the ESLint configuration
+## 📂 Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+task-organizer/
+│
+├── src/
+│ ├── components/ # Componentes reutilizables
+│ ├── pages/ # Páginas de la aplicación
+│ ├── App.jsx # Componente principal
+│ ├── main.jsx # Punto de entrada de React
+│ └── index.css # Estilos globales
+│
+├── public/
+├── index.html
+└── package.json
+
+
+## 🛠️ Instalación y uso
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/SebastGalvis/Task-Organizer.git
+Entra al proyecto:
+
+cd Task-Organizer
+Instala las dependencias:
+
+npm install
+Ejecuta el proyecto:
+
+npm run dev
+Abre en el navegador:
+
+http://localhost:5173
+🎯 Objetivo del proyecto
+Este proyecto fue creado como parte de mi proceso de aprendizaje en desarrollo frontend con React, con el objetivo de mejorar mis habilidades en:
+
+Componentes de React
+
+Manejo de estados
+
+Estructuración de proyectos
+
+Uso de Tailwind CSS
+
+Control de versiones con Git y GitHub
+
+👨‍💻 Autor
+Desarrollado por Sebastián Galvis 🚀
+Estudiante y desarrollador de software enfocado en frontend.
+
+GitHub: https://github.com/SebastGalvis
